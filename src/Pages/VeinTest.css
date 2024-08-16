@@ -1,0 +1,162 @@
+.vein-test-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.vein-test-header {
+    margin-bottom: 30px;
+}
+
+.vein-test-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.vein-test-category h2 {
+    font-size: 24px;
+}
+
+.vein-test-colors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.color-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.cool-blue {
+    background-color: #4A90E2; /* Replace with your desired color */
+}
+
+.cool-purple {
+    background: linear-gradient(135deg, #4A90E2 50%, #9013FE 50%); /* Replace with your desired color */
+}
+
+.warm-green {
+    background-color: #7ED321; /* Replace with your desired color */
+}
+
+.warm-olive {
+    background: linear-gradient(135deg, #7ED321 50%, #B8E986 50%); /* Replace with your desired color */
+}
+
+.neutral-blue-green {
+    background: linear-gradient(135deg, #4A90E2 50%, #7ED321 50%); /* Replace with your desired color */
+}
+
+.neutral-blue-purple-olive {
+    background: linear-gradient(135deg, #4A90E2 33%, #9013FE 33%, #B8E986 33%); /* Replace with your desired color */
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.vein-test-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+}
+.help-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.help-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.help-section p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.seasons-section {
+    margin: 20px auto;
+    max-width: 600px; /* Adjust width as needed */
+}
+
+.seasons-image {
+    width: 100%;
+    height: auto;
+}
+
+.subscribe-section {
+    margin-top: 30px;
+}
+
+.subscribe-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    font-size: 1em;
+    width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.subscribe-form button:hover {
+    background-color: #555;
+}
+.pdf-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pdf-link p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.pdf-link a {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pdf-link a:hover {
+    text-decoration: underline;
+}
+

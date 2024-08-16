@@ -1,0 +1,29 @@
+.question-card {
+    text-align: center;
+  }
+  
+  .question-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .options {
+    margin-top: 20px;
+  }
+  
+  .options button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .options button:hover {
+    background: #0056b3;
+  }
+  

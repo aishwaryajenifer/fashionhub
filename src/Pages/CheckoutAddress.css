@@ -1,0 +1,251 @@
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.checkout-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.checkout-header h2 {
+    color: gray;
+    font-weight: 400;
+}
+
+.checkout-header h2.active-step {
+    color: black;
+    font-weight: 600;
+}
+
+.checkout-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+.address-section {
+    width: 60%;
+}
+
+.address-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.address-card.selected {
+    border-color: teal;
+    background-color: #fff5f5;
+}
+
+.address-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.address-header input[type="radio"] {
+    margin-right: 10px;
+}
+
+.address-header h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.address-type {
+    background-color: #e8eaf6;
+    color: teal;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.address-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-button,
+.remove-button {
+    border: none;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.add-new-address {
+    margin-top: 15px;
+}
+
+.add-new-button {
+    border: 1px dashed teal;
+    background-color: transparent;
+    color: teal;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.summary-section {
+    width: 35%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    height: fit-content;
+}
+
+.summary-section h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.summary-section p {
+    margin: 5px 0;
+}
+
+.continue-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color:teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/* Modal Background */
+.address-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Form Container */
+  .address-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    animation: fadeIn 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  /* Form Heading */
+  .address-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  /* Form Labels */
+  .address-form label {
+    display: block;
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  /* Form Input Fields */
+  .address-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus State for Input Fields */
+  .address-form input[type="text"]:focus {
+    border-color: teal;
+    outline: none;
+  }
+  
+  /* Save Button */
+  .save-button {
+    width: 100%;
+    padding: 12px;
+    background-color: teal;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: teal;
+  }
+  
+  /* Close Button */
+  .close-button {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    background-color: teal;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-button:hover {
+    background-color: #e6325d;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

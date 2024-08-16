@@ -1,0 +1,30 @@
+/* TShirtPreview.css */
+.tshirt-preview {
+    width: 100%;
+    max-width: 400px; /* Adjust the width as needed */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tshirt {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .tshirt-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .custom-text {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color: inherit; /* Use color inherited from parent component */
+  }
+  

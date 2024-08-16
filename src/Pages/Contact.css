@@ -1,0 +1,46 @@
+/* HelpPage.css */
+.help-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: teal;
+}
+
+.faq, .order-issue, .account-info, .shipping-info {
+  margin-bottom: 20px;
+}
+
+.faq-question, .order-issue-title, .account-info-title, .shipping-info-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
